@@ -24,3 +24,4 @@ view_shapes = napari.view_layers.view_shapes
 view_surface = napari.view_layers.view_surface
 view_tracks = napari.view_layers.view_tracks
 view_vectors = napari.view_layers.view_vectors
+view_graphs = napari.view_layers.view_graphs

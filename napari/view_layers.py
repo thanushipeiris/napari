@@ -25,6 +25,7 @@ __all__ = [
     'view_surface',
     'view_tracks',
     'view_vectors',
+    'view_graphs'
 ]
 
 _doc_template = """Create a viewer and add a{n} {layer_string} layer.
@@ -163,5 +164,11 @@ def view_vectors(*args, **kwargs):
 
 
 @_merge_layer_viewer_sigs_docs
+def view_graphs(*args, **kwargs):
+    return _make_viewer_then('add_graphs', args, kwargs)
+
+
+@_merge_layer_viewer_sigs_docs
 def view_path(*args, **kwargs):
     return _make_viewer_then('open', args, kwargs)
+

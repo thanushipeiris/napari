@@ -35,6 +35,7 @@ _submod_attrs = {
         'view_surface',
         'view_tracks',
         'view_vectors',
+        'view_graphs'
     ],
     'viewer': ['Viewer', 'current_viewer'],
 }

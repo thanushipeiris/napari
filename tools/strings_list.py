@@ -2863,6 +2863,7 @@ SKIP_WORDS = {
         'add_surface',
         'add_tracks',
         'add_vectors',
+        'add_graphs',
         'kwargs',
         'return',
         'self',

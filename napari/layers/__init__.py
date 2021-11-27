@@ -16,6 +16,7 @@ from .shapes import Shapes
 from .surface import Surface
 from .tracks import Tracks
 from .vectors import Vectors
+from .graphs import Graphs
 
 # isabstact check is to exclude _ImageBase class
 NAMES = {
@@ -33,5 +34,7 @@ __all__ = [
     'Surface',
     'Tracks',
     'Vectors',
-    'NAMES',
+    'Graphs',
+    'NAMES'
+
 ]
